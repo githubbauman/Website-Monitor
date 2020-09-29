@@ -20,9 +20,9 @@ BeautifulSoup must be [installed](https://www.crummy.com/software/BeautifulSoup/
 * The created directory must be writable by the script.
 * Edit "config.py.example".
 * Rename "config.py.example" to "config<span>.</span>py".
-* "config<span>.</span>py" Should only be readable by the script! 
+* "config.py" Should only be readable by the script! 
    Linux example:
-         chmod 700 config<span>.</span>py
+         chmod 700 config.py
 
 
 ## Running
@@ -30,18 +30,18 @@ BeautifulSoup must be [installed](https://www.crummy.com/software/BeautifulSoup/
 Call:
 
 ```
-python3 website-monitor.py
+python3 website_monitor.py
 ```
 or:
 ```
-./website-monitor
+./website_monitor
 ```
 
 Preferable called by Cron or Windows Task Scheduler.
 
 Cron example:
 ```
-0,15,30,45 * * * * /home/johndoe/bin/website-monitor/website-monitor.py >> /home/johndoe/bin/website-monitor/website-monitor.log 2>&1
+0,15,30,45 * * * * /home/johndoe/bin/website-monitor/website_monitor.py >> /home/johndoe/bin/website-monitor/website_monitor.log 2>&1
 ```
 
 ## Built With
