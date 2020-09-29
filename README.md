@@ -20,7 +20,7 @@ BeautifulSoup must be [installed](https://www.crummy.com/software/BeautifulSoup/
 * The created directory must be writable by the script.
 * Edit "config.py.example".
 * Rename "config.py.example" to "config<span>.</span>py".
-* "config<span>.</span>py" Should only readable by the script! 
+* "config<span>.</span>py" Should only be readable by the script! 
    Linux example:
          chmod 700 config<span>.</span>py
 
