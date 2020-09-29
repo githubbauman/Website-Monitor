@@ -16,8 +16,8 @@ from message import Message
 
 def website_monitor():
     message_text = ''
-    websites_hashes_path = str(
-        pathlib.Path(__file__).parent.absolute()) \
+    websites_hashes_path = \
+        str(pathlib.Path(__file__).parent.absolute()) \
         + os.path.sep \
         + 'website_monitor.data'
 
