@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+.pylintrc
+config.py
+website_monitor.data
+website_monitor.log
