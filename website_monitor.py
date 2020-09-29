@@ -88,8 +88,3 @@ def website_monitor():
 
 if __name__ == '__main__':
     website_monitor()
-
-# ToDo :
-# Testing.
-# Create .gitignore
-# Add project to bitbucket.
